@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 1 task</title>
+    <link rel="stylesheet" type="text/css" href="lab1.css">
+</head>
+<body>
+
+
+<ul id="categories">
+    <li id="wife"><a href="#">Wife</a></li>
+    <li id="girlfriend"><a href="#">Girlfriend</a></li>
+    <li id="showall"><a href="#">Show all</a></li>
+</ul>
+
+<div id="thumbnails">
+    <div id="image2" class="image">
+        <h3 class="title">Title 1</h3>
+        <img src="http://placekitten.com/320/300">
+        <p>description</p>
+        <button id="button1">View</button>
+    </div>
+    <div id="image3" class="image">
+        <h3 class="title">Title 2</h3>
+        <img src="http://placekitten.com/321/300">
+        <p>description</p>
+        <button id="button2">View</button>
+    </div>
+    <div id="image1" class="image">
+        <h3 class="title">Title 3</h3>
+        <img src="http://placekitten.com/319/300">
+        <p>description</p>
+        <button id="button3">View</button>
+    </div>
+</div>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modalimg" src="http://placekitten.com/768/720">
+        <p id="desc1">Description</p>
+        <p id="time1">Time</p>
+        <div id="map"></div>
+    </div>
+</div>
+
+<div id="myModal2" class="modal">
+    <div class="modal-content">
+        <span class="close2">&times;</span>
+        <img id="modalimg2" src="http://placekitten.com/770/720">
+        <p id="desc2">Description</p>
+        <p id="time2">Time</p>
+        <div id="map2"></div>
+    </div>
+</div>
+
+<div id="myModal3" class="modal">
+    <div class="modal-content">
+        <span class="close3">&times;</span>
+        <img id="modalimg3" src="http://placekitten.com/769/720">
+        <p id="desc3">Description</p>
+        <p id="time3">Time</p>
+        <div id="map3"></div>
+    </div>
+</div>
+
+
+
+<script src="lab1.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFImtgOVFLw3S7rIwDxQdPr7mC7IqA2ls">
+</script>
+
+</body>
+</html>
